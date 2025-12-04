@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme for Amora Dating App -->
+    <style name="Theme.Amora" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary brand color (Main neon green) -->
+        <item name="colorPrimary">@color/neon_green</item>
+        <item name="colorPrimaryVariant">@color/neon_green_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Secondary brand color (Also neon green for consistency) -->
+        <item name="colorSecondary">@color/neon_green</item>
+        <item name="colorSecondaryVariant">@color/neon_green_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color (Black for dark theme) -->
+        <item name="android:statusBarColor">@color/status_bar</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor">@color/black</item>
+
+        <!-- Background color for the entire app -->
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="backgroundColor">@color/dark_background</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/light_gray</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+
+        <!-- Font family - Plus Jakarta Sans -->
+        <item name="fontFamily">@font/plusjakartasans_regular</item>
+        <item name="android:fontFamily">@font/plusjakartasans_regular</item>
+
+        <!-- Remove window animation for splash screen -->
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <!-- Button Style - Neon Green Buttons -->
+    <style name="AmoraButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/neon_green</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/plusjakartasans_semibold</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Outline Button Style - Transparent with neon green border -->
+    <style name="AmoraOutlineButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/neon_green</item>
+        <item name="android:textColor">@color/neon_green</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/plusjakartasans_semibold</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <!-- EditText Style - Dark input fields -->
+    <style name="AmoraEditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/dark_gray</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="hintTextColor">@color/light_gray</item>
+        <item name="android:fontFamily">@font/plusjakartasans_regular</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+    </style>
+
+    <!-- CardView Style - Dark cards for profiles -->
+    <style name="AmoraCardView" parent="CardView">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+
+    <!-- Title Text Style -->
+    <style name="AmoraTitleText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontFamily">@font/plusjakartasans_bold</item>
+    </style>
+
+    <!-- Subtitle Text Style -->
+    <style name="AmoraSubtitleText">
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/plusjakartasans_regular</item>
+    </style>
+
+    <!-- Bottom Navigation Style -->
+    <style name="AmoraBottomNav" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="backgroundTint">@color/black</item>
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">@color/white</item>
+        <item name="itemActiveIndicatorStyle">@style/AmoraBottomNavIndicator</item>
+    </style>
+
+    <!-- Bottom Navigation Active Indicator -->
+    <style name="AmoraBottomNavIndicator">
+        <item name="android:color">@color/neon_green</item>
+    </style>
+
+</resources>

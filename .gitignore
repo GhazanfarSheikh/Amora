@@ -1,0 +1,94 @@
+# ============================================
+# AMORA APP - GITIGNORE
+# Protects sensitive data from being uploaded to GitHub
+# ============================================
+
+# ===== CRITICAL: FIREBASE & API KEYS =====
+google-services.json
+GoogleService-Info.plist
+firebase.json
+.firebaserc
+
+# API Keys and Secrets
+local.properties
+secrets.properties
+keystore.properties
+
+# Keystore files
+*.keystore
+*.jks
+*.pepk
+
+# ===== BUILD FILES =====
+*.apk
+*.aab
+*.ap_
+*.aar
+*.dex
+*.class
+
+# Build folders
+bin/
+gen/
+out/
+build/
+.gradle/
+.externalNativeBuild/
+.cxx/
+
+# ===== ANDROID STUDIO =====
+.idea/
+*.iml
+.navigation/
+captures/
+
+# ===== LOGS =====
+*.log
+
+# ===== NDK =====
+obj/
+*.so
+
+# ===== LINT =====
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+lint-results.xml
+lint-results_files/
+
+# ===== OS FILES =====
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+
+# ===== BACKUP FILES =====
+*.bak
+*.tmp
+*.temp
+*.orig
+
+# ===== RELEASE =====
+release/
+*.hprof
+proguard/
+
+# ===== MISC =====
+freeline.py
+freeline/
+freeline_project_description.json
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+*.jsbundle
+Pods/
+node_modules/
+.env
+.env.local
+.env.production

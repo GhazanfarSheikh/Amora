@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Amora</string>
+
+    <!-- Onboarding Screen Strings -->
+    <string name="onboarding_title_1">Find Real</string>
+    <string name="onboarding_title_2">Connections</string>
+    <string name="onboarding_title_3">That Matter</string>
+    <string name="onboarding_desc">Amora helps you build genuine relationships with people who truly match your vibe</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Authentication Screen Strings -->
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+
+    <!-- Bottom Navigation Strings -->
+    <string name="for_you">For You</string>
+    <string name="discover">Discover</string>
+    <string name="messages">Messages</string>
+    <string name="profile">Profile</string>
+
+    <!-- Profile Details Strings -->
+    <string name="bio">Bio</string>
+    <string name="my_interest">My Interest</string>
+    <string name="photos">Photos</string>
+    <string name="km_away">%s km away</string>
+    <string name="match_percentage">%d%%</string>
+
+    <!-- Common Strings -->
+    <string name="loading">Loading...</string>
+    <string name="error">Something went wrong</string>
+    <string name="retry">Retry</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Validation Messages -->
+    <string name="empty_email">Please enter your email</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="empty_password">Please enter your password</string>
+    <string name="short_password">Password must be at least 6 characters</string>
+    <string name="password_mismatch">Passwords do not match</string>
+    <string name="empty_name">Please enter your full name</string>
+    <string name="login_success">Login successful!</string>
+    <string name="signup_success">Account created successfully!</string>
+    <string name="login_failed">Login failed. Please check your credentials</string>
+    <string name="signup_failed">Signup failed. Please try again</string>
+</resources>
