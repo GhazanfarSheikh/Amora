@@ -111,4 +111,30 @@
         <item name="android:color">@color/neon_green</item>
     </style>
 
+    <!-- Add these styles to your themes.xml file -->
+
+    <!-- Filter Chip Style -->
+    <style name="FilterChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/dark_gray</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="chipStrokeColor">@color/neon_green</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="android:fontFamily">@font/plusjakartasans_medium</item>
+    </style>
+
+    <!-- Interest Chip Style -->
+    <style name="InterestChipStyle" parent="Widget.MaterialComponents.Chip.Entry">
+        <item name="chipBackgroundColor">@color/dark_gray</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="closeIconVisible">false</item>
+        <item name="android:fontFamily">@font/plusjakartasans_medium</item>
+    </style>
+
+    <!-- Bottom Nav Active Indicator -->
+    <style name="BottomNavActiveIndicator" parent="">
+        <item name="android:color">@color/neon_green</item>
+    </style>
+
+
 </resources>

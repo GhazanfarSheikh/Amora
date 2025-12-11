@@ -9,6 +9,29 @@
     <color name="dark_background">#0D0D0D</color>      ← Main app background
     <color name="card_background">#1A1A1A</color>      ← Profile cards
     <color name="dark_gray">#2A2A2A</color>            ← Input fields, containers
+    <?xml version="1.0" encoding="utf-8"?>
+
+    <!-- Brand Colors -->
+        <color name="neon_green">#CDFF00</color>
+        <color name="neon_green_dark">#B8E600</color>
+
+    <!-- Background Colors -->
+        <color name="black">#000000</color>
+        <color name="dark_background">#0D0D0D</color>
+        <color name="card_background">#1A1A1A</color>
+        <color name="dark_gray">#2A2A2A</color>
+
+    <!-- Text Colors -->
+        <color name="white">#FFFFFF</color>
+        <color name="light_gray">#B3B3B3</color>
+        <color name="text_secondary">#808080</color>
+
+    <!-- Status Bar -->
+        <color name="status_bar">#000000</color>
+
+    <!-- Bottom Navigation Color Selector -->
+        <color name="bottom_nav_selected">#CDFF00</color>
+        <color name="bottom_nav_unselected">#808080</color>
 
     <!-- Text Colors -->
     <color name="white">#FFFFFF</color>                ← Primary text

@@ -2,6 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- PERMISSIONS -->
+    <!-- Internet permission for Firebase -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Network state permission -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Optional: Location permissions for distance feature -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -10,16 +19,53 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Amora">
+        android:theme="@style/Theme.Amora"
+        tools:targetApi="31">
+
+        <!-- SPLASH ACTIVITY (Entry Point) -->
+        <!-- This is the first activity that launches -->
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Amora">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- ONBOARDING ACTIVITY -->
+        <activity
+            android:name=".activities.OnboardingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Amora" />
+
+        <!-- LOGIN ACTIVITY -->
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Amora"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- SIGNUP ACTIVITY -->
+        <activity
+            android:name=".activities.SignupActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Amora"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- MAIN ACTIVITY -->
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Amora" />
+
+        <!-- PROFILE DETAILS ACTIVITY -->
+        <activity
+            android:name=".activities.ProfileDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Amora" />
+
     </application>
 
 </manifest>
